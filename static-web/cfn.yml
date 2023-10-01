@@ -1,5 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: This my Cfn template for EC2 with Security Group
+Description: 
+  This my Cfn template for EC2 with Security Group
 
 Resources:
   MyWebServer:
@@ -48,6 +49,4 @@ Outputs:
     Value: !Sub
       - http://${PublicAddress}
       - PublicAddress: !GetAtt MyWebServer.PublicDnsName
-        http://ec2-52-23-240-228.compute-1.amazonaws.com
-       - Export: 
-       - Name:
+

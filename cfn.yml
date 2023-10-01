@@ -3,7 +3,6 @@ Description: |
   This my Cfn template for EC2 with Security Group 
 
 Resources:
-
   MyWebServer:
     Type: AWS::EC2::Instance
     Properties:
@@ -33,7 +32,7 @@ Resources:
   MySecGrp:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: ssh and http # Required
+      GroupDescription: ssh and http 
       GroupName: osvaldosecportfolio
       SecurityGroupIngress:
         - IpProtocol: tcp
