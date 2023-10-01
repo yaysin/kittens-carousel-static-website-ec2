@@ -49,4 +49,4 @@ Outputs:
       - http://${PublicAddress}
       - PublicAddress: !GetAtt MyWebServer.PublicDnsName
         http://ec2-52-23-240-228.compute-1.amazonaws.com
-Name: MyWebServerURL
+  Name: MyWebServerURL
