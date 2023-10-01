@@ -50,5 +50,4 @@ Outputs:
       - PublicAddress: !GetAtt MyWebServer.PublicDnsName
         http://ec2-52-23-240-228.compute-1.amazonaws.com
       - Export: 
-      - 
-      Name:
+      - Name:
